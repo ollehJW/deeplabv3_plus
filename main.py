@@ -161,5 +161,5 @@ def plot_predictions(images_list, colormap, model, save_dir):
 plot_predictions(train_images[3:7], colormap, model=best_model, save_dir = './inference/train')
 # %%
 ## (2) Test Inference 결과
-plot_predictions(val_images[:3], colormap, model=best_model)
+plot_predictions(val_images[:3], colormap, model=best_model, save_dir = './inference/test')
 # %%
