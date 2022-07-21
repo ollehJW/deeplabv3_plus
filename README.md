@@ -17,4 +17,6 @@ pip install tensorflow-gpu==2.8
 original image: jpg
 mask image: png
 
-## 3. 
+## 3. Train
+main.py로 파라미터 조절을 통한 학습 진행
+best_model.h5로 저장됨.
